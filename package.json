@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "An image processing application that renders a source image with a couple input images, Includes caching and precomputation techniques.",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Emekaony/Photomosaics/issues"
   },
-  "homepage": "https://github.com/Emekaony/Photomosaics#readme"
+  "homepage": "https://github.com/Emekaony/Photomosaics#readme",
+  "dependencies": {
+    "image-js": "^0.35.6"
+  }
 }
