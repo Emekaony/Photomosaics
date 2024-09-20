@@ -1,7 +1,7 @@
 import { Image } from "image-js";
 
 // function to laod the image asynchronously
-(async function laodImage() {
+(async function loadImage() {
   try {
     let img = await Image.load("images/example_input.jpg");
     console.log("Image width is: ", img.width);
