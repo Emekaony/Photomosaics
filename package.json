@@ -1,0 +1,24 @@
+{
+  "name": "photomosaics",
+  "version": "1.0.0",
+  "description": "An image processing application that renders a source image with a couple input images, Includes caching and precomputation techniques.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Emekaony/Photomosaics.git"
+  },
+  "keywords": [
+    "Image",
+    "processing"
+  ],
+  "author": "Nnaemeka C. Onyeokoro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Emekaony/Photomosaics/issues"
+  },
+  "homepage": "https://github.com/Emekaony/Photomosaics#readme"
+}
