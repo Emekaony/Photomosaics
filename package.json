@@ -24,5 +24,8 @@
   "homepage": "https://github.com/Emekaony/Photomosaics#readme",
   "dependencies": {
     "image-js": "^0.35.6"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
