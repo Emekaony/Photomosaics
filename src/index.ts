@@ -1,4 +1,4 @@
-import { Image } from "image-js";
+import { Image, ImageKind } from "image-js";
 
 // function to laod the image asynchronously
 (async function loadImage() {
@@ -6,6 +6,9 @@ import { Image } from "image-js";
     let img: Image = await Image.load("images/example_input.jpg");
     console.log("Image width is: ", img.width);
     console.log("Image height is: ", img.height);
+    let newImage: Image = img.clone();
+    // try saving new image into sample output
+    await newImage.save("images/sample_output.jpg", { format: "jpg" });
   } catch (e) {
     console.log("error loading the image: ", e);
   }
