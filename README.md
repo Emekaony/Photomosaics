@@ -1,1 +1,1 @@
-Photomosaics
+Images are cool but constructing an image from a bunch of source images is even cooler!
