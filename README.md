@@ -1,3 +1,4 @@
+
 Images are cool but constructing an image from a bunch of source images is even cooler!
 
 <h1 align="center">STEPS</h1>
@@ -12,3 +13,4 @@ Images are cool but constructing an image from a bunch of source images is even 
 
 ## Architecture:
 ![Project Logo](images/mosaic-plan.png)
+
