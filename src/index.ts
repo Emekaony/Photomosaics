@@ -1,4 +1,4 @@
-import { Image, ImageKind } from "image-js";
+import { Image } from "image-js";
 
 // function to laod the image asynchronously
 (async function loadImage() {
