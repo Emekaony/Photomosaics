@@ -7,6 +7,9 @@ import { Image, ImageKind } from "image-js";
     console.log("Image width is: ", img.width);
     console.log("Image height is: ", img.height);
     let newImage: Image = img.clone();
+    newImage = newImage.crop({
+      height: 50,
+    });
     // try saving new image into sample output
     await newImage.save("images/sample_output.jpg", { format: "jpg" });
   } catch (e) {
